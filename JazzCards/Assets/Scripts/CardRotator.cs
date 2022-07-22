@@ -13,6 +13,11 @@ public class CardRotator : MonoBehaviour
     public GameObject right_card;
     public GameObject stack_card;
 
+    // List of positions of cards
+    public List<Vector3> card_positions_list;
+    public List<Vector3> card_rotations_list;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +43,6 @@ public class CardRotator : MonoBehaviour
 
     IEnumerator RotateCards()
     {
-
 
 
         yield break;
